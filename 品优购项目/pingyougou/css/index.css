@@ -1,0 +1,265 @@
+.main{
+	width: 980px;
+	height: 455px;
+	margin-left: 219px;
+	margin-top: 10px;
+}
+
+.focus{
+	position: relative;
+	float: left;
+	width: 720px;
+	height: 455px;
+	background-color: purple;
+}
+.newsflash{
+	float:right;
+	width: 250px;
+	height: 455px;
+}
+.arrow-l,
+.arrow-r {
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 24px;
+	height: 40px;
+	background-color: rgba(0,0,0,.3);
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+}
+.arrow-r{
+	right: 0;
+}
+.circle{
+	position: absolute;
+	bottom: 10px;
+	left: 50px;
+}
+.circle li{
+	width: 8px;
+	height: 8px;
+	float: left;
+	border: 1px solid rgba(255, 255, 255, .5);
+	border-radius: 8px;
+	margin: 0 4px;
+	cursor: pointer;
+}
+.news{
+	height: 163px;
+	border: 1px solid #ccc;
+}
+.newshd{
+	height: 32px;
+	border-bottom: 1px dotted #ccc;
+	font-size: 14px;
+	line-height: 32px;
+	padding:0 15px;
+}
+.newsbd li{
+	height: 25px;
+}
+.lifeservice{
+	height: 208px;
+	border: 1px solid #ccc;
+	border-top: none;
+	overflow: hidden;
+}
+.bargin{
+	height: 75px;
+	margin-top: 5px;
+}
+.newsbd{
+	padding: 10px 0 0 15px;
+}
+.lifeservice li{
+	position: relative;
+	float: left;
+	width: 62px;
+	height: 70px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.lifeservice ul{
+	width: 255px;
+}
+.lifeservice li a{
+	display: block;
+	overflow: hidden;
+}
+.lifeservice li p{
+	text-align: center;
+}
+.hot{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 12px;
+	height: 15px;
+	background: url(../img/jian.png) no-repeat;
+}
+.service_ico{
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin: 10px auto;
+	background: url(../img/icons.png) no-repeat;
+}
+.service_ico_huafei{
+	background-position: -17px -16px;
+}
+.service_ico_feiji{
+	background-position: -78px -16px;
+}
+.service_ico_dianyingpiao{
+	background-position: -140px -16px;
+}
+.service_ico_youxi{
+	background-position: -205px -16px;
+}
+.service_ico_caipiao{
+	background-position: -17px -87px;
+}
+.service_ico_jiayouka{
+	background-position: -80px -87px;
+}
+.service_ico_jiudian{
+	background-position: -140px -87px;
+}
+.service_ico_huochepiao{
+	background-position: -205px -87px;
+}
+.service_ico_zhongchou{
+	background-position: -17px -159px;
+}
+.service_ico_licai{
+	background-position: -80px -159px;
+}
+.service_ico_lipinka{
+	background-position: -140px -159px;
+}
+.service_ico_baitiao{
+	background-position: -205px -159px;
+}
+.recommend{
+	height: 163px;
+	background-color: hotpink;
+	margin-top: 10px;
+}
+.recom-hd{
+	width: 200px;
+	height: 163px;
+	background-color: #5c5251;
+	text-align: center;
+}
+.recom-hd img{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.recom-hd h3{
+	font-size: 17px;
+	color: #fff;
+	font-weight: normal;
+}
+.recom-bd{
+	width: 1000px;
+	height: 163px;
+	background-color: #ebebeb;
+	overflow: hidden;
+}
+.recom-bd li{
+	float: left;
+	width: 249px;
+	height: 145px;
+	border-right: 1px solid #ccc;
+	margin-top: 10px;
+}
+.last{
+	border-right: 0;
+}
+/*floor*/
+.box-hd{
+	height: 30px;
+	border-bottom: 2px solid #c81623;
+	margin-top: 25px;
+}
+.box-hd h3{
+	color: #c81623;
+	font-size: 18px;
+}
+.tab-list{
+	line-height: 30px;
+}
+.tab-list li{
+	float: left;
+}
+.tab-list li a{
+	margin: 0 15px;
+}
+.box-bd{
+	height: 361px;
+}
+.tab-con li{
+	height: 361px;
+	float: left;
+}
+.w209{
+	width: 209px;
+}
+.w329{
+	width: 329px;
+}
+.w219{
+	width: 219px;
+	border-right: 1px solid #ccc;
+}
+.w220 {
+	width: 220px;
+	border-right: 1px solid #ccc;
+}
+.tab-con-item{
+	border-bottom: 1px solid #ccc;
+}
+.tab-con-list li{
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	margin-left: 10px;
+	border-bottom:1px solid #ccc ;
+	text-align: center;
+}
+.fixedtool{
+	width: 66px;
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	margin-left: -676px;
+	background-color: red;
+}
+.fixedtool li {
+	font-size: 12px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+.fixedtool li:hover{
+	background-color: red;
+}
+.fixedtool a:hover{
+	color: white;
+}
+.box-bd img{
+	transition: all .2s;
+}
+.box-bd img:hover{
+	margin-left: 8px;
+}
+.menu_item{
+	transition: all .2s;
+}
+.menu_item:hover{
+	padding-left: 20px;
+}

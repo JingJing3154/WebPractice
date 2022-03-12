@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <input type="text " va lue="iphone">
+    <script>
+        var text = document.querySelector("input");
+        text.onfocus = function() {
+            //获得焦点之后需要改变文本颜色
+            text.value = "";
+            text.style.color = "black";
+            if (text.value == "iphone") {
+                this.value = "";
+            }
+        }
+        text.onblur = function() {
+            //失去焦点，并且无内容再次恢复颜色
+            text.style.color = "grey";
+            if (text.value == "") {
+                text.value = "iphone";
+            }
+        }
+    </script>
+</body>
+
+</html>
